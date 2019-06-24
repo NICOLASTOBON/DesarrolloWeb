@@ -30,11 +30,11 @@
 
 body{
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sistem-ui;
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sistem-ui;
     font-weight: normal;
 }
 
@@ -44,6 +44,7 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px;
     color: white;
+    max-width: 500px;
     /* text-transform: uppercase;
     text-decoration: underline; */
 }
@@ -55,7 +56,7 @@ h1 strong{
 h2{
     color: #026fff;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sistem-ui;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
@@ -137,7 +138,7 @@ ol , ul{
 }
 
 .project strong{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sistem-ui;
 }
 .project-course, .project-date,.project-url{
     margin: 10px 0;
